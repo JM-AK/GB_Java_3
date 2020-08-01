@@ -1,0 +1,24 @@
+
+b
+java:S2095C"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÒÛ³óüÿÿÿÿ
+>
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148n"#Use a logger to log this exception.(Ö·÷şÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+D
+java:S2115b")Add password protection to this database.( ÿÔüÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(©£Îá
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ü¢í
+V	java:S125""<This block of commented-out lines of code should be removed.(›ú„›üÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(ÛÄâˆıÿÿÿÿ
+F
+java:S1144,"0Remove this unused private "prepExample" method.(£÷‚¥
+N
+java:S11446"8Remove this unused private "performInsertIntoDB" method.(¡¤ˆ‹
+F
+java:S1144B"0Remove this unused private "readRecords" method.(‚Ó·¾
+J
+java:S1144L"/Remove this unused private "updateData" method.(øÇ¬ƒşÿÿÿÿ
+K
+java:S1144\"5Remove this unused private "deleteAllRecords" method.(ÃŠûˆ

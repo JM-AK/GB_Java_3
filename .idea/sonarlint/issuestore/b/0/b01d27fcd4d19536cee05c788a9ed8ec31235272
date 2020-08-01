@@ -1,0 +1,9 @@
+
+‰
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(”¸¦ôûÿÿÿÿ
+|
+java:S4165"hRemove this useless assignment; "sampleArr1" already holds the assigned value along all execution paths.(ÿöİØ
+Y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÇøÕá
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(”î³úÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(â…Âıÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(¸È¨øÿÿÿÿ
