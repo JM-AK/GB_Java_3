@@ -53,3 +53,7 @@ W
 'Geekbrains-java2-master/stage-3/pom.xml,e\0\e00562c692825c67d349c33d9c9308c7111e48dc
 7
 main.db,8\9\8966d0114cd1e16b171af73d589083909d7acef4
+h
+8.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_32_3.xml,b\8\b8d39d5d772c3d94eff9492097141b3cb2b1acb5
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
