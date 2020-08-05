@@ -1,0 +1,12 @@
+02.08.2020 11:30:48 <server>: /auth##denied
+02.08.2020 11:31:14 <Server>: sysroot connected
+02.08.2020 11:32:43 <server>: /auth##denied
+02.08.2020 11:33:40 <Server>: alex-st connected
+02.08.2020 11:33:40 <Server>: alex-st connected
+02.08.2020 11:34:14 <server>: User alex-st disconnected
+02.08.2020 11:34:14 <server>: User alex-st disconnected
+02.08.2020 14:46:49 <Server>: sysroot connected
+02.08.2020 14:47:34 <Server>: alex-st connected
+02.08.2020 14:47:34 <Server>: alex-st connected
+02.08.2020 14:47:43 <server>: User alex-st disconnected
+02.08.2020 14:47:43 <server>: User alex-st disconnected
