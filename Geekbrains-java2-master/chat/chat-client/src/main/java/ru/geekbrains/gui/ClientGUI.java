@@ -8,10 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -156,6 +153,23 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         }
     }
 
+    private void putFileHistoryToChatArea (String user) {
+        try (BufferedReader br = new BufferedReader(new FileReader(user + "-history.txt"))){
+            int i = 0;
+            StringBuilder history = new StringBuilder();
+            while (i < 100 && br.ready()){
+                history.append(br.readLine());
+                history.append(System.lineSeparator());
+            }
+            chatArea.append(history.toString());
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void showError(String errorMsg) {
         JOptionPane.showMessageDialog(this, errorMsg, "Exception!", JOptionPane.ERROR_MESSAGE);
     }
@@ -195,6 +209,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
             case AUTH_ACCEPT:
                 this.nickname = values[2];
                 setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
+                putFileHistoryToChatArea(values[2]);
                 break;
             case AUTH_DENIED:
                 putMessageInChatArea("server", msg);
