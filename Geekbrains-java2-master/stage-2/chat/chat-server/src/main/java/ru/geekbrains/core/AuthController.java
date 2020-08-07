@@ -7,8 +7,6 @@ import java.util.HashMap;
 
 public class AuthController {
 
-
-
     HashMap<String, User> users = new HashMap<>();
 
     public void init() {
@@ -27,16 +25,8 @@ public class AuthController {
 
     private ArrayList<User> receiveUsers() {
         ArrayList<User> usersArr = new ArrayList<>();
-        try{
-            ChatDB.connect();
-            usersArr = ChatDB.getUserList();
-
-        }catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            ChatDB.disconnect();
-        }
-
+        usersArr.add(new User("admin", "admin", "sysroot"));
+        usersArr.add(new User("alex", "123", "alex-st"));
         return usersArr;
     }
 
