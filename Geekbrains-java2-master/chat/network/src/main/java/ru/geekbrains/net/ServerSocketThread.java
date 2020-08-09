@@ -24,7 +24,7 @@ public class ServerSocketThread extends Thread {
             serverSocket.setSoTimeout(timeout);
             System.out.println(getName() + " running on port " + port );
             while (!isInterrupted()) {
-                System.out.println("Waiting for connect");
+//                System.out.println("Waiting for connect");
                 try {
                     Socket socket = serverSocket.accept();
                     listener.onSocketAccepted(socket);

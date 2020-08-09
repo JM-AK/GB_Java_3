@@ -30,6 +30,11 @@ public class ClientSessionThread extends MessageSocketThread {
         sendMessage(MessageLibrary.getAuthAcceptMessage(nickname));
     }
 
+    public void authUpdate(String nickname) {
+        this.nickname = nickname;
+        sendMessage(MessageLibrary.getAuthUpdateMessage(nickname));
+    }
+
     public void authDeny() {
         sendMessage(MessageLibrary.getAuthDeniedMessage());
         close();

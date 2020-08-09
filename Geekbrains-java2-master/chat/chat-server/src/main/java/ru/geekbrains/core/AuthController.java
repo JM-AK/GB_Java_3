@@ -7,8 +7,6 @@ import java.util.HashMap;
 
 public class AuthController {
 
-
-
     HashMap<String, User> users = new HashMap<>();
 
     public void init() {

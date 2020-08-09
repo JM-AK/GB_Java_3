@@ -54,6 +54,10 @@ public class MessageLibrary {
        return AUTH_METHOD + DELIMITER + AUTH_UPDATE + DELIMITER + login + DELIMITER + password + DELIMITER + nickname;
    }
 
+    public static String getAuthUpdateMessage(String nickname) {
+        return AUTH_METHOD + DELIMITER + AUTH_UPDATE + DELIMITER + nickname;
+    }
+
     public static String getMsgFormatErrorMessage(String message) {
         return MSG_FORMAT_ERROR + DELIMITER + message;
     }

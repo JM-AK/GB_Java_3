@@ -111,14 +111,15 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
             String nickname = arr[4];
             String oldNickname = authController.getNickname(login, password);
 
-            ClientSessionThread oldClientSession = findClientSessionByNickname(nickname);
-            clientSession.authAccept(nickname);
-            oldClientSession.setReconnected(true);
-            clients.remove(oldClientSession);
+            ClientSessionThread oldClientSession = findClientSessionByNickname(oldNickname);
+            if(oldClientSession != null) clients.remove(oldClientSession);
+            clients.add(clientSession);
+//            oldClientSession.setReconnected(true);
 
             try {
                 ChatDB.connect();
                 ChatDB.updateNickname(login, nickname);
+                System.out.println("Chat DB updated");
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             } catch (SQLException throwables) {
@@ -126,6 +127,10 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
             } finally {
                 ChatDB.disconnect();
             }
+
+            clientSession.setNickname(nickname);
+            clientSession.authAccept(nickname);
+
             sendToAllAuthorizedClients(MessageLibrary.getBroadcastMessage("Server", nickname + " reconnected"));
             sendToAllAuthorizedClients(MessageLibrary.getUserList(getUsersList()));
 

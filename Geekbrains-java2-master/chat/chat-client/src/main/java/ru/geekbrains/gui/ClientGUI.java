@@ -233,11 +233,11 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
                 setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
                 putFileHistoryToChatArea(values[2], 100);
                 break;
-//            case AUTH_UPDATE:
-//                this.nickname = values[2];
-//                setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
-//                putFileHistoryToChatArea(values[2], 100);
-//                break;
+            case AUTH_UPDATE:
+                this.nickname = values[2];
+                setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
+                putFileHistoryToChatArea(values[2], 100);
+                break;
             case AUTH_DENIED:
                 putMessageInChatArea("server", msg);
                 socketThread.close();

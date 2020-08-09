@@ -16,20 +16,20 @@ public class ChatDB {
     private static Statement statement;
     private static PreparedStatement preparedStatement;
 
-//    public static void main(String[] args) {
-//        try {
-//            connect();
+    public static void main(String[] args) {
+        try {
+            connect();
 //            createTable();
 //            insertUsers("admin", "admin", "sysroot");
 //            insertUsers("alex", "123", "alex-st");
-//
+            readRecords();
 //            connection.commit();
 //
-//        } catch (Exception e) {
-//        } finally {
-//            disconnect();
-//        }
-//    }
+        } catch (Exception e) {
+        } finally {
+            disconnect();
+        }
+    }
 
     public static void connect() throws ClassNotFoundException, SQLException {
         Class.forName("org.sqlite.JDBC");
