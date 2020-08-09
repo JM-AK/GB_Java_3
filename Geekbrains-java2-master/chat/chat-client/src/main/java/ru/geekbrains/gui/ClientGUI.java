@@ -1,6 +1,7 @@
 package ru.geekbrains.gui;
 
 import ru.geekbrains.chat.common.MessageLibrary;
+import ru.geekbrains.core.ChatDB;
 import ru.geekbrains.net.MessageSocketThread;
 import ru.geekbrains.net.MessageSocketThreadListener;
 
@@ -10,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 import java.net.Socket;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -165,26 +167,28 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
             ArrayList<String> lines = new ArrayList<String>();
             StringBuilder builder = new StringBuilder();
             File file = new File(user + "-history.txt");
-            int readLines = 0;
-            long fileLength = file.length();
-            try (RandomAccessFile raf = new RandomAccessFile(file, "r");){
-                for (long pointer = fileLength; pointer >= 0; pointer--) {
-                    raf.seek(pointer);
-                    char c = (char) raf.read();
-                    if (c == '\n') {
-                        lines.add(builder.reverse().toString());
-                        builder = new StringBuilder();
-                        readLines++;
-                        if (readLines == linesCount) {
-                            break;
+            if(file.exists()) {
+                int readLines = 0;
+                long fileLength = file.length();
+                try (RandomAccessFile raf = new RandomAccessFile(file, "r");) {
+                    for (long pointer = fileLength; pointer >= 0; pointer--) {
+                        raf.seek(pointer);
+                        char c = (char) raf.read();
+                        if (c == '\n') {
+                            lines.add(builder.reverse().toString());
+                            builder = new StringBuilder();
+                            readLines++;
+                            if (readLines == linesCount) {
+                                break;
+                            }
                         }
+                        builder.append(c);
                     }
-                    builder.append(c);
+                    Collections.reverse(lines);
+                    chatArea.append(lines.toString());
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-                Collections.reverse(lines);
-                chatArea.append(lines.toString());
-            } catch (IOException e){
-                e.printStackTrace();
             }
     }
 
@@ -227,8 +231,13 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
             case AUTH_ACCEPT:
                 this.nickname = values[2];
                 setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
-                putFileHistoryToChatArea(values[2],100);
+                putFileHistoryToChatArea(values[2], 100);
                 break;
+//            case AUTH_UPDATE:
+//                this.nickname = values[2];
+//                setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
+//                putFileHistoryToChatArea(values[2], 100);
+//                break;
             case AUTH_DENIED:
                 putMessageInChatArea("server", msg);
                 socketThread.close();
@@ -268,8 +277,8 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         return nickname;
     }
 
-    protected String getLogin(){
-        return buttonLogin.getText();
+    public void changeNickname(String nickname){
+        socketThread.sendMessage(MessageLibrary.getAuthUpdateMessage(loginField.getText(), new String(passwordField.getPassword()), nickname));
     }
 
 }

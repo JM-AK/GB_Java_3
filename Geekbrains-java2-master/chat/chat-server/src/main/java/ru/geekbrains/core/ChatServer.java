@@ -7,16 +7,20 @@ import ru.geekbrains.net.ServerSocketThread;
 import ru.geekbrains.net.ServerSocketThreadListener;
 
 import java.net.Socket;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Vector;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ChatServer implements ServerSocketThreadListener, MessageSocketThreadListener {
-
+    private static final int THREAD_CAPABILITY = 100;
     private ServerSocketThread serverSocketThread;
     private ChatServerListener listener;
     private AuthController authController;
     private Vector<ClientSessionThread> clients = new Vector<>();
+    private ExecutorService poolClients = Executors.newFixedThreadPool(THREAD_CAPABILITY);
 
     public ChatServer(ChatServerListener listener) {
         this.listener = listener;
@@ -87,7 +91,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
     public void onMessageReceived(MessageSocketThread thread, String msg) {
         ClientSessionThread clientSession = (ClientSessionThread)thread;
         if (clientSession.isAuthorized()) {
-            processAuthorizedUserMessage(msg);
+            processAuthorizedUserMessage(clientSession, msg);
         } else {
             processUnauthorizedUserMessage(clientSession, msg);
         }
@@ -98,13 +102,40 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
         throwable.printStackTrace();
     }
 
-    private void processAuthorizedUserMessage(String msg) {
+    private void processAuthorizedUserMessage(ClientSessionThread clientSession, String msg) {
         logMessage(msg);
-        for (ClientSessionThread client : clients) {
-            if (!client.isAuthorized()) {
-                continue;
+        String[] arr = msg.split(MessageLibrary.DELIMITER);
+        if (arr[0].equals(MessageLibrary.AUTH_METHOD) && arr[1].equals(MessageLibrary.AUTH_UPDATE)){
+            String login = arr[2];
+            String password = arr[3];
+            String nickname = arr[4];
+            String oldNickname = authController.getNickname(login, password);
+
+            ClientSessionThread oldClientSession = findClientSessionByNickname(nickname);
+            clientSession.authAccept(nickname);
+            oldClientSession.setReconnected(true);
+            clients.remove(oldClientSession);
+
+            try {
+                ChatDB.connect();
+                ChatDB.updateNickname(login, nickname);
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            } finally {
+                ChatDB.disconnect();
             }
-            client.sendMessage(msg);
+            sendToAllAuthorizedClients(MessageLibrary.getBroadcastMessage("Server", nickname + " reconnected"));
+            sendToAllAuthorizedClients(MessageLibrary.getUserList(getUsersList()));
+
+        }else {
+            for (ClientSessionThread client : clients) {
+                if (!client.isAuthorized()) {
+                    continue;
+                }
+                client.sendMessage(msg);
+            }
         }
     }
 

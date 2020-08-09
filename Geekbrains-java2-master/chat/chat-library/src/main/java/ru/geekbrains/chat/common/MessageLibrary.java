@@ -15,6 +15,7 @@ public class MessageLibrary {
         UNKNOWN,
         AUTH_ACCEPT,
         AUTH_DENIED,
+        AUTH_UPDATE,
         TYPE_BROADCAST,
         TYPE_BROADCAST_CLIENT,
         MSG_FORMAT_ERROR,
@@ -26,6 +27,8 @@ public class MessageLibrary {
     public static final String AUTH_REQUEST = "request";
     public static final String AUTH_ACCEPT = "accept";
     public static final String AUTH_DENIED = "denied";
+    public static final String AUTH_UPDATE = "updated";
+
     /* то есть сообщение, которое будет посылаться всем */
     public static final String TYPE_BROADCAST = "/broadcast";
 
@@ -46,6 +49,10 @@ public class MessageLibrary {
     public static String getAuthDeniedMessage() {
         return AUTH_METHOD + DELIMITER + AUTH_DENIED;
     }
+
+   public static String getAuthUpdateMessage(String login, String password, String nickname) {
+       return AUTH_METHOD + DELIMITER + AUTH_UPDATE + DELIMITER + login + DELIMITER + password + DELIMITER + nickname;
+   }
 
     public static String getMsgFormatErrorMessage(String message) {
         return MSG_FORMAT_ERROR + DELIMITER + message;
@@ -76,6 +83,8 @@ public class MessageLibrary {
                     return MESSAGE_TYPE.AUTH_ACCEPT;
                 } else if (arr[1].equals(AUTH_DENIED)) {
                     return MESSAGE_TYPE.AUTH_DENIED;
+                } else if (arr[1].equals(AUTH_UPDATE)) {
+                    return MESSAGE_TYPE.AUTH_UPDATE;
                 } else {
                     return MESSAGE_TYPE.UNKNOWN;
                 }

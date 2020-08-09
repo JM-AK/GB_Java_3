@@ -42,13 +42,7 @@ public class ClientSettingsWindow extends JFrame {
     private void setSettings (){
         String nickName = nickNameField.getText();
         if (!nickName.equals(clientGUI.getNickname())) {
-            clientGUI.setNickname(nickName);
-            try {
-                ChatDB.updateNickname(clientGUI.getLogin(),nickName);
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
-            }
-
+            clientGUI.changeNickname(nickName);
         }
 
         setVisible(false);
