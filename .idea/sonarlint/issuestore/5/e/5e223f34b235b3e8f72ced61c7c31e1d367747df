@@ -1,0 +1,25 @@
+
+b
+java:S20955"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(†¸Ï
+h
+java:S20950"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ˆİï÷ùÿÿÿÿ
+d
+java:S2095!"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÿŒÎø
+d
+java:S2095."NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ï¯±Í
+c
+java:S2095?"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(üÕÍ‡
+d
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÿŒÎø
+J
+java:S1066\"/Merge this if statement with the enclosing one.(ääÏ¾ÿÿÿÿÿ
+a	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(åôé«ıÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯àÕÉÿÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯àÕÉÿÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯àÕÉÿÿÿÿÿ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(óıùÃ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(Ìï¼Ô
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(ù¿Îùÿÿÿÿ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(¨œçÛùÿÿÿÿ
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(éÛ¨ïÿÿÿÿÿ
+V	java:S125n"<This block of commented-out lines of code should be removed.(ö¯—Ëúÿÿÿÿ

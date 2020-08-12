@@ -1,0 +1,10 @@
+
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼‡…²
+C
+java:S1604"(Make this anonymous inner class a lambda(€á€‹þÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å¨©°üÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ

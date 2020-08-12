@@ -1,0 +1,35 @@
+
+7
+java:S16434"Use a StringBuilder instead.(òü´Áüÿÿÿÿ
+N
+java:S4973M"9Use the "equals" method if value comparison was intended.(ÄÊ´'
+T
+java:S4973N"9Use the "equals" method if value comparison was intended.(ŞÃá‰ıÿÿÿÿ
+ƒ
+java:S1130	"hRemove the declaration of thrown exception 'java.lang.ArithmeticException' which is a runtime exception.(âá¼’şÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "chars".(à°»á
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Š™Ò¾ûÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(‡ä½Åúÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(‡ä½Åúÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(Ó£ä–
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(ªçÿ
+M	java:S106M"9Replace this use of System.out or System.err by a logger.(ÄÊ´'
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ŞÃá‰ıÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(ªçÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(¦Ôıîÿÿÿÿÿ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ğ– 
+=
+java:S1481"'Remove this unused "is" local variable.(Í½
+<
+java:S1481"'Remove this unused "os" local variable.(¬ ˆ
+@
+java:S1481"*Remove this unused "chars" local variable.(à°»á
+V	java:S125C"<This block of commented-out lines of code should be removed.(ÿØâÿÿÿÿÿ
+T
+java:S11440"9Remove this unused private "stringBuilderExample" method.(Ğ«­“ùÿÿÿÿ
+M
+java:S1144A"2Remove this unused private "stringExample" method.(–ÒÙùÿÿÿÿ

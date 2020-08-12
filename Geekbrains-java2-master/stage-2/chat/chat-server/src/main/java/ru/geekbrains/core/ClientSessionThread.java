@@ -1,8 +1,8 @@
 package ru.geekbrains.core;
 
-import ru.geekbrains.chat.common.MessageLibrary;
-import ru.geekbrains.net.MessageSocketThread;
-import ru.geekbrains.net.MessageSocketThreadListener;
+import ru.gb.chat.common.MessageLibrary;
+import ru.gb.net.MessageSocketThread;
+import ru.gb.net.MessageSocketThreadListener;
 
 import java.net.Socket;
 

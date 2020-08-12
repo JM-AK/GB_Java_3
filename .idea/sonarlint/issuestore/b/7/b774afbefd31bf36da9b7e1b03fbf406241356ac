@@ -1,0 +1,12 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
+“
+java:S1130"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(À…ıóşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒìµ³
+‘
+java:S1130"vRemove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.(¯áÅıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤Êğ¾
+V	java:S125"<This block of commented-out lines of code should be removed.(®ê×¤ıÿÿÿÿ
+V	java:S125$"<This block of commented-out lines of code should be removed.(Ó¥Ê¢üÿÿÿÿ

@@ -1,0 +1,7 @@
+
+m
+java:S1450
+"WRemove the "gameMode" field and declare it as a local variable in the relevant methods.(öºÀ
+B
+java:S1068
+",Remove this unused "gameMode" private field.(öºÀ

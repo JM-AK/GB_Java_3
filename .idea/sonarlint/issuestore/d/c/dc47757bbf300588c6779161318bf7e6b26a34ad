@@ -1,0 +1,17 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(€α€‹ώÿÿÿÿ
+N
+java:S1481"3Remove this unused "stopProcessing" local variable.(®ρ¥Νÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(κ‰Ϋόÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ι²Ρ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•µυ
+V	java:S125"<This block of commented-out lines of code should be removed.(®ύπ«ψÿÿÿÿ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(ΉΨΜ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(³ªϋÿÿÿÿ
+^
+java:S1192"HDefine a constant instead of duplicating this literal "success" 3 times.(ι²Ρ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ώθÿÿÿÿÿ
+\
+java:S2142/"FEither re-interrupt this method or rethrow the "InterruptedException".(δ Ή€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(άξ‡

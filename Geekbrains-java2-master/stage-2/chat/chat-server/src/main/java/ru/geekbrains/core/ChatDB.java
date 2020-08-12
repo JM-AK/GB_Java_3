@@ -5,7 +5,7 @@ package ru.geekbrains.core;
 * 2.*Добавить в сетевой чат возможность смены ника.
 * */
 
-import ru.geekbrains.data.User;
+import ru.gb.data.User;
 
 import java.sql.*;
 import java.util.ArrayList;

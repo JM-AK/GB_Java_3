@@ -1,0 +1,24 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ô¤Ÿâ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>
+java:S1604D"(Make this anonymous inner class a lambda(ÿïÞß
+^
+java:S1192"HDefine a constant instead of duplicating this literal "prepare" 3 times.(ð¬Ü–
+=
+java:S16046"(Make this anonymous inner class a lambda(£·®
+\
+java:S2142."FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅöÑç
+\
+java:S2142="FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+C
+java:S1604R"(Make this anonymous inner class a lambda(ûè¿°þÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(Ñ«¼Ý
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+\
+java:S2142K"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+\
+java:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

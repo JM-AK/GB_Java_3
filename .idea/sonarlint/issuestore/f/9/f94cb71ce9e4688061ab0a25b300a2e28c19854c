@@ -1,0 +1,28 @@
+
+=
+java:S1604	"(Make this anonymous inner class a lambda(£·®
+>
+java:S1604"(Make this anonymous inner class a lambda(ÿïŞß
+C
+java:S1604#"(Make this anonymous inner class a lambda(ûè¿°şÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+K
+java:S2209"5Change this instance-reference to a static reference.(‹İ¶Û
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÄ™g
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+P
+java:S2209"5Change this instance-reference to a static reference.(ˆñ…‘üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‘Ô¶Œúÿÿÿÿ
+\
+java:S2142("FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+K
+java:S2209'"5Change this instance-reference to a static reference.(ÔĞó
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(Ô·ê
+\
+java:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ïì×èûÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(Â‰¿Ó
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(œÀ¿âøÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(‰ì±Àùÿÿÿÿ

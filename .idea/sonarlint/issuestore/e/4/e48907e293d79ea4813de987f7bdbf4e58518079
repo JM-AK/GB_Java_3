@@ -1,0 +1,27 @@
+
+Z
+java:S4143"DVerify this is the key that was intended; it was already set before.(Øê„ù
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ç’¤™
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ñˆ ù
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(Œ¨¤şÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(Úú°Êûÿÿÿÿ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(Íş™À
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(Úú°Êûÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+U
+java:S1854O"@Remove this useless assignment to local variable "integetClass".(Ëá%
+L
+java:S1854S"6Remove this useless assignment to local variable "in".(ø¾Ó’
+C
+java:S1481"(Remove this unused "key" local variable.(½Ö²’ûÿÿÿÿ
+=
+java:S1481S"'Remove this unused "in" local variable.(ø¾Ó’
+F
+java:S1481O"1Remove this unused "integetClass" local variable.(Ëá%
+Q	java:S125"<This block of commented-out lines of code should be removed.(îÕŞÄ
+V	java:S125"<This block of commented-out lines of code should be removed.(÷¦†èıÿÿÿÿ
+I
+java:S11444"3Remove this unused private "arrListExample" method.(‡×‡
+J
+java:S1144M"/Remove this unused private "intExample" method.(øø¶Çıÿÿÿÿ

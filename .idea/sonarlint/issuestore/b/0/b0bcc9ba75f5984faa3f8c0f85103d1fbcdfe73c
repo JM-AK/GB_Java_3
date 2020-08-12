@@ -1,0 +1,10 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†ÙÎåÿÿÿÿÿ
+F
+java:S1905"+Remove this unnecessary cast to "Runnable".(øß„ðùÿÿÿÿ
+F
+java:S1905"+Remove this unnecessary cast to "Runnable".(Àù©¨øÿÿÿÿ
+F
+java:S1905"+Remove this unnecessary cast to "Runnable".(©—˜Âüÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
