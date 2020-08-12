@@ -1,0 +1,13 @@
+
+†
+java:S1319%"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©Ò¶¨
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Ivanov" 3 times.(Ý€­±
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´½Ÿ–þÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.( ¤Ü£ÿÿÿÿÿ
+t
+java:S3012("YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ûù½›øÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ
+Q	java:S125	"<This block of commented-out lines of code should be removed.(«©ŒŸ
+V	java:S1253"<This block of commented-out lines of code should be removed.(«ì‰ýýÿÿÿÿ
+V	java:S1257"<This block of commented-out lines of code should be removed.(ôÒ‰þÿÿÿÿ

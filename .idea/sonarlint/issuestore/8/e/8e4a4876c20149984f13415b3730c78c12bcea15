@@ -1,0 +1,10 @@
+
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(ñÎÉúÿÿÿÿ
+[	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(Ò©Ã£
+a	java:S112â"FDefine and throw a dedicated exception instead of using a generic one.(öÂ¬Áùÿÿÿÿ
+C
+java:S1604."(Make this anonymous inner class a lambda(Ô¶µÿşÿÿÿÿ
+l	java:S116)"WRename this field "WINDOW_TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¬ù
+7
+java:S1170)"!Make this final field static too.(Ø¬ù
+Q	java:S125>"<This block of commented-out lines of code should be removed.(õëó

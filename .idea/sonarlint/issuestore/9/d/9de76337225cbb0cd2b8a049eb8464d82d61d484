@@ -1,0 +1,13 @@
+
+B
+java:S1612(",Replace this lambda with a method reference.(äÊ˜˜
+C
+java:S1604 "(Make this anonymous inner class a lambda(Ó·¬¾ùÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ÷›ù
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’Ë·éýÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+B
+java:S1602(",Remove useless curly braces around statement(äÊ˜˜
+N	java:S106("9Replace this use of System.out or System.err by a logger.(äÊ˜˜

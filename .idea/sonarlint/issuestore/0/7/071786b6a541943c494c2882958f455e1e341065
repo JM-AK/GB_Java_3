@@ -1,0 +1,20 @@
+
+s	java:S135)"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Æ‚Ü…ÿÿÿÿÿ
+F
+java:S1172("0Remove this unused method parameter "fieldSize".(¼ó§¾
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(œÚ€–üÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(æÐÑ©øÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(µÁèß
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(æÐÑ©øÿÿÿÿ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(Õñ‚—
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(µçßš
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(òÂàýÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÇÐ³ºûÿÿÿÿ
+]
+java:S1126š"AReplace this if-then-else statement by a single return statement.(”ž²ÿÿÿÿÿ
+V	java:S125e"<This block of commented-out lines of code should be removed.(—Á÷ûøÿÿÿÿ
+V	java:S125k"<This block of commented-out lines of code should be removed.(—Á÷ûøÿÿÿÿ

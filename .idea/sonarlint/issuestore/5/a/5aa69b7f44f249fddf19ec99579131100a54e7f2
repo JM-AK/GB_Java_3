@@ -1,0 +1,31 @@
+
+j
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¥Ý˜ùüÿÿÿÿ
+f
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ÉàÝœ
+g
+java:S1192%"LDefine a constant instead of duplicating this literal "./dir/1.txt" 3 times.(ù­Ôúúÿÿÿÿ
+>
+java:S1604["(Make this anonymous inner class a lambda(Û¬íò
+C
+java:S1604c"(Make this anonymous inner class a lambda(ÓÕ¨çüÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜
+S	java:S106"9Replace this use of System.out or System.err by a logger.(åŠËšùÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.( ”Ð±
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(øÁ‚îûÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(ÖŒ÷½
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(¡„šÚûÿÿÿÿ
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(’ä±‡
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(·àÙ¥
+N	java:S106["9Replace this use of System.out or System.err by a logger.(Û¬íò
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(ÓÕ¨çüÿÿÿÿ
+H
+java:S1144$"2Remove this unused private "bufferExample" method.(ÔªÙñ
+F
+java:S11442"0Remove this unused private "russianRead" method.(ìöéŠ
+H
+java:S1144>"2Remove this unused private "fileRWExample" method.(¥™¥á
+E
+java:S1144T"0Remove this unused private "fileMethods" method.(ü›¢

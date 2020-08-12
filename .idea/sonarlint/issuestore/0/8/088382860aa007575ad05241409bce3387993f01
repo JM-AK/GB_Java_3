@@ -1,0 +1,70 @@
+
+9
+java:S2189""Add an end condition to this loop.(Ğ¡ÓÓ
+N
+java:S2589"7Remove this expression which always evaluates to "true"(Ğ¡ÓÓ
+U
+java:S1854#":Remove this useless assignment to local variable "matrix".(ê€¬Ûıÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "arrj".(Öáç³üÿÿÿÿ
+Y
+java:S18547"CRemove this useless assignment to local variable "twoDimPredefArr".(ƒÎ€ü
+V
+java:S18541";Remove this useless assignment to local variable "matrix2".(‹Â’Ìùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×Æáî
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ƒøå÷ıÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¿¾â¹ùÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(”ÆÄÆúÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(şî©
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(È—ã÷
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(‰‡Ğıÿÿÿÿ
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(­”«ï
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+P
+java:S1854a"5Remove this useless assignment to local variable "i".(¨Û•¨üÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(é¡Â’
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(Ù©È±
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(«ë¨äüÿÿÿÿ
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(Ù©È±
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(é¡Â’
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(ôäšûÿÿÿÿ
+T	java:S106‰"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+?
+java:S1125"(Remove the literal "true" boolean value.(Ğ¡ÓÓ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(«ï¦ó
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(ã‰Ï¡
+?	java:S108™")Either remove or fill this block of code.(º••²
+O	java:S106®"9Replace this use of System.out or System.err by a logger.(Ü×êé
+O	java:S106µ"9Replace this use of System.out or System.err by a logger.(°…©Î
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(Ö¼¡š
+D
+java:S1481")Remove this unused "arrj" local variable.(Öáç³üÿÿÿÿ
+F
+java:S1481#"+Remove this unused "matrix" local variable.(ê€¬Ûıÿÿÿÿ
+G
+java:S14811",Remove this unused "matrix2" local variable.(‹Â’Ìùÿÿÿÿ
+J
+java:S14817"4Remove this unused "twoDimPredefArr" local variable.(ƒÎ€ü
+A
+java:S1481a"&Remove this unused "i" local variable.(¨Û•¨üÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¿èø¢şÿÿÿÿ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(ÖŞÉËüÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(òÌ„Ñ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(³¨æ’
+W	java:S125"<This block of commented-out lines of code should be removed.(ÂÜ£’ıÿÿÿÿ
+W	java:S125¡"<This block of commented-out lines of code should be removed.(Ö®ğòüÿÿÿÿ
+G
+java:S1144F"2Remove this unused private "continueCycle" method.(´â‡
+L
+java:S1144S"6Remove this unused private "printPifagorTable" method.(ñŞäÓ
+K
+java:S1144]"5Remove this unused private "cycleForEachDemo" method.(ÕÃÎ‡
+N
+java:S1144h"3Remove this unused private "cycleWhileDemo" method.(ò…Òûıÿÿÿÿ
+D
+java:S1144z".Remove this unused private "cycleDemo" method.(¹Îƒó
+F
+java:S1144Ÿ"/Remove this unused private "switchDemo" method.(½ÖèÂ

@@ -1,22 +1,24 @@
 package ru.geekbrains.core;
 
-import ru.geekbrains.chat.common.MessageLibrary;
-import ru.geekbrains.net.MessageSocketThread;
-import ru.geekbrains.net.MessageSocketThreadListener;
-import ru.geekbrains.net.ServerSocketThread;
-import ru.geekbrains.net.ServerSocketThreadListener;
+import ru.gb.core.AuthController;
+import ru.gb.core.ChatServerListener;
+import ru.gb.core.ClientSessionThread;
+import ru.gb.chat.common.MessageLibrary;
+import ru.gb.net.MessageSocketThread;
+import ru.gb.net.MessageSocketThreadListener;
+import ru.gb.net.ServerSocketThread;
+import ru.gb.net.ServerSocketThreadListener;
 
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Vector;
 
 public class ChatServer implements ServerSocketThreadListener, MessageSocketThreadListener {
 
     private ServerSocketThread serverSocketThread;
-    private ChatServerListener listener;
-    private AuthController authController;
-    private Vector<ClientSessionThread> clients = new Vector<>();
+    private ru.gb.core.ChatServerListener listener;
+    private ru.gb.core.AuthController authController;
+    private Vector<ru.gb.core.ClientSessionThread> clients = new Vector<>();
 
     public ChatServer(ChatServerListener listener) {
         this.listener = listener;
@@ -51,7 +53,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
 
     @Override
     public void onSocketAccepted(Socket socket) {
-        clients.add(new ClientSessionThread(this, "ClientSessionThread", socket));
+        clients.add(new ru.gb.core.ClientSessionThread(this, "ClientSessionThread", socket));
     }
 
     @Override
@@ -74,7 +76,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
 
     @Override
     public void onSocketClosed(MessageSocketThread thread) {
-        ClientSessionThread clientSession = (ClientSessionThread) thread;
+        ru.gb.core.ClientSessionThread clientSession = (ru.gb.core.ClientSessionThread) thread;
         logMessage("Socket Closed");
         clients.remove(thread);
         if (clientSession.isAuthorized() && !clientSession.isReconnected()) {
@@ -85,7 +87,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
 
     @Override
     public void onMessageReceived(MessageSocketThread thread, String msg) {
-        ClientSessionThread clientSession = (ClientSessionThread)thread;
+        ru.gb.core.ClientSessionThread clientSession = (ru.gb.core.ClientSessionThread)thread;
         if (clientSession.isAuthorized()) {
             processAuthorizedUserMessage(msg);
         } else {
@@ -100,7 +102,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
 
     private void processAuthorizedUserMessage(String msg) {
         logMessage(msg);
-        for (ClientSessionThread client : clients) {
+        for (ru.gb.core.ClientSessionThread client : clients) {
             if (!client.isAuthorized()) {
                 continue;
             }
@@ -109,7 +111,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
     }
 
     private void sendToAllAuthorizedClients(String msg) {
-        for (ClientSessionThread client : clients) {
+        for (ru.gb.core.ClientSessionThread client : clients) {
             if(!client.isAuthorized()) {
                 continue;
             }
@@ -117,7 +119,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
         }
     }
 
-    private void processUnauthorizedUserMessage(ClientSessionThread clientSession, String msg) {
+    private void processUnauthorizedUserMessage(ru.gb.core.ClientSessionThread clientSession, String msg) {
         String[] arr = msg.split(MessageLibrary.DELIMITER);
         if (arr.length < 4 ||
                 !arr[0].equals(MessageLibrary.AUTH_METHOD) ||
@@ -132,7 +134,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
             clientSession.authDeny();
             return;
         } else {
-            ClientSessionThread oldClientSession = findClientSessionByNickname(nickname);
+            ru.gb.core.ClientSessionThread oldClientSession = findClientSessionByNickname(nickname);
             clientSession.authAccept(nickname);
             if (oldClientSession == null) {
                 sendToAllAuthorizedClients(MessageLibrary.getBroadcastMessage("Server", nickname + " connected"));
@@ -145,8 +147,8 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
      }
 
     public void disconnectAll() {
-        ArrayList<ClientSessionThread> currentClients = new ArrayList<>(clients);
-        for (ClientSessionThread client : currentClients) {
+        ArrayList<ru.gb.core.ClientSessionThread> currentClients = new ArrayList<>(clients);
+        for (ru.gb.core.ClientSessionThread client : currentClients) {
             client.close();
             clients.remove(client);
         }
@@ -159,7 +161,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
 
     public String getUsersList() {
         StringBuilder sb = new StringBuilder();
-        for (ClientSessionThread client : clients) {
+        for (ru.gb.core.ClientSessionThread client : clients) {
             if (!client.isAuthorized()) {
                 continue;
             }
@@ -168,7 +170,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
         return sb.toString();
     }
 
-    private ClientSessionThread findClientSessionByNickname(String nickname) {
+    private ru.gb.core.ClientSessionThread findClientSessionByNickname(String nickname) {
         for (ClientSessionThread client : clients) {
             if (!client.isAuthorized()) {
                 continue;

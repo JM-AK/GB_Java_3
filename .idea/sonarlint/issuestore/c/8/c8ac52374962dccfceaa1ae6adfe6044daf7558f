@@ -1,0 +1,21 @@
+
+d
+java:S1192"IDefine a constant instead of duplicating this literal "Animal: " 3 times.(×öÆìÿÿÿÿÿ
+f
+java:S1192"KDefine a constant instead of duplicating this literal " of color " 3 times.(×öÆìÿÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "co".(•Œ–É
+N	java:S106"9Replace this use of System.out or System.err by a logger.(þ»Þ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×öÆìÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(º—Û›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›ÙóŠüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(þ»Þ
+S
+java:S1197 "8Move the array designator from the variable to the type.(ÛÒ¼üÿÿÿÿ
+L
+java:S4838!"6Change "Animal" to the type handled by the Collection.(âÐô£
+>
+java:S1481"(Remove this unused "var" local variable.(ø¿Ç 
+=
+java:S1481"'Remove this unused "co" local variable.(•Œ–É
+V	java:S125"<This block of commented-out lines of code should be removed.(—ãìøÿÿÿÿ

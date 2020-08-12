@@ -1,6 +1,6 @@
 package ru.geekbrains.core;
 
-import ru.geekbrains.data.User;
+import ru.gb.data.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;

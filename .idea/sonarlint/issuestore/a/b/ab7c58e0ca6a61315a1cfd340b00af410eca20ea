@@ -1,0 +1,26 @@
+
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘åé
+G
+java:S1612",Replace this lambda with a method reference.(ªú£ôúÿÿÿÿ
+B
+java:S1612	",Replace this lambda with a method reference.(Î×Â‚
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊËïò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(­øŸˆ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Y
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÃ™¬þÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ€ÑÕûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Y
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ñŒê¾ùÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ëí„¾
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+\
+java:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(«òýŽýÿÿÿÿ

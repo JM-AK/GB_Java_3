@@ -1,0 +1,21 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ƒÂû”ùÿÿÿÿ
+B
+java:S1612	",Replace this lambda with a method reference.(Î×Â‚
+B
+java:S1612
+",Replace this lambda with a method reference.(Î×Â‚
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊËïò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·™ĞË
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µ‰ü¿
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·¼ùüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…‡ ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Y
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(á˜ ¶
+S	java:S106""9Replace this use of System.out or System.err by a logger.(Ì®¯ïûÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ÏÇßşÿÿÿÿ

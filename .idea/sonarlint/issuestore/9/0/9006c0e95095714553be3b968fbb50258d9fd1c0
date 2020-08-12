@@ -1,0 +1,24 @@
+
+h	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(öÂ¬Áùÿÿÿÿ8àÁÍÏ¼.
+P
+java:S1948-".Make "socketThread" transient or serializable.(„¶²âûÿÿÿÿ8ÃşåÉ¼.
+l
+java:S1871ì"IThis case's code block is the same as the block for the case on line 231.( ³¬Íøÿÿÿÿ8Í´ì ½.
+b	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò©Ã£8àÁÍÏ¼.
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8›ŞÏ½.
+C
+java:S16041"(Make this anonymous inner class a lambda(Ô¶µÿşÿÿÿÿ
+|
+java:S2293§"YReplace the type specification in this constructor call with the diamond operator ("<>").(§Œÿµşÿÿÿÿ8àÁÍÏ¼.
+Q	java:S125A"<This block of commented-out lines of code should be removed.(õëó
+Z
+java:S1068)"8Remove this unused "clientSettingsWindow" private field.(¡Ô¶ªıÿÿÿÿ8Ï„ÇÊ¼.
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(ñÎÉúÿÿÿÿ
+…
+java:S1450)"cRemove the "clientSettingsWindow" field and declare it as a local variable in the relevant methods.(¡Ô¶ªıÿÿÿÿ8ï—ÑÏ¼.
+l	java:S116,"WRename this field "WINDOW_TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¬ù
+7
+java:S1170,"!Make this final field static too.(Ø¬ù
+X
+java:S1128"6Remove this unused import 'ru.geekbrains.core.ChatDB'.(Æ©Ôºüÿÿÿÿ8Ñ¡Ï½.

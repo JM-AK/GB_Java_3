@@ -1,0 +1,12 @@
+
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(â¤ÁÇÿÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ŸØ“á
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(É‡ûæıÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(‡É»á
+
+java:S11303"zRemove the declaration of thrown exception 'ru.geekbrains.homework.Main$IncorrectMatrixSize' which is a runtime exception.(Ëª¹Ë
+l
+java:S34578"Q%n should be used in place of \n to produce the platform-specific line separator.(Î³¼¯ûÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(™şÏüÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ÆØüÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(Ö¨C

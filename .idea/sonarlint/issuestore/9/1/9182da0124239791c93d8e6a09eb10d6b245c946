@@ -1,0 +1,9 @@
+
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñÉ¾×ùÿÿÿÿ
+3
+java:S1700"Rename field "phoneBook"(§€®Èøÿÿÿÿ
+U
+java:S1854+":Remove this useless assignment to local variable "phones".(µ“âÐþÿÿÿÿ
+F
+java:S1481+"+Remove this unused "phones" local variable.(µ“âÐþÿÿÿÿ
