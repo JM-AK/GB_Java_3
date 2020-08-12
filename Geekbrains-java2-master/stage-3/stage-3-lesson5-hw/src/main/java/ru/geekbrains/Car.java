@@ -1,9 +1,19 @@
 package ru.geekbrains;
 
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.CyclicBarrier;
+
+import static ru.geekbrains.MainClass.CARS_COUNT;
+
 public class Car implements Runnable {
-    private static int CARS_COUNT;
+    static CyclicBarrier cbReady = new CyclicBarrier(CARS_COUNT);
+    static final CountDownLatch cdFinish = new CountDownLatch(CARS_COUNT);
+    static CountDownLatch cdStart = new CountDownLatch(CARS_COUNT);
+
+    private static int carsNum;
     static {
-        CARS_COUNT = 0;
+        carsNum = 0;
     }
     private Race race;
     private int speed;
@@ -17,8 +27,8 @@ public class Car implements Runnable {
     public Car(Race race, int speed) {
         this.race = race;
         this.speed = speed;
-        CARS_COUNT++;
-        this.name = "Участник #" + CARS_COUNT;
+        carsNum++;
+        this.name = "Участник #" + carsNum;
     }
     @Override
     public void run() {
@@ -26,11 +36,17 @@ public class Car implements Runnable {
             System.out.println(this.name + " готовится");
             Thread.sleep(500 + (int)(Math.random() * 800));
             System.out.println(this.name + " готов");
+            cbReady.await();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        cdStart.countDown();
+
         for (int i = 0; i < race.getStages().size(); i++) {
             race.getStages().get(i).go(this);
         }
+        cdFinish.countDown();
     }
 }
