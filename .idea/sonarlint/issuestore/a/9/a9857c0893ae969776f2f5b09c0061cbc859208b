@@ -1,0 +1,21 @@
+
+D
+java:S1144k".Remove this unused private "dropTable" method.(Ÿêµ•
+]	java:S125"<This block of commented-out lines of code should be removed.(½ßéþÿÿÿÿ8™Ã¨ ½.
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+K
+java:S1144o"5Remove this unused private "deleteAllRecords" method.(ÃŠûˆ
+E	java:S108")Either remove or fill this block of code.(”ý¾8Äñ¨ ½.
+M
+java:S11440"0Remove this unused private "createTable" method.(Ÿßªå8¬Ô‡ ½.
+?
+java:S2115$")Add password protection to this database.(Êá«
+]
+java:S2095Y"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ë×üÉ
+]
+java:S2095M"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ë×üÉ
+†
+java:S1319W"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ˆÊÔ§
+E
+java:S2695F"/This "PreparedStatement" only has 2 parameters.(â›å„
+]	java:S125"<This block of commented-out lines of code should be removed.(·à©•ÿÿÿÿÿ8™Ã¨ ½.

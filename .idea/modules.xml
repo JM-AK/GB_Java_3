@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GB_Java_3.iml" filepath="$PROJECT_DIR$/.idea/GB_Java_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-client/chat-client.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-client/chat-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-client/chat-client (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-client/chat-client (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-library/chat-library.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-library/chat-library.iml" />
@@ -17,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson4/lesson4.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson4/lesson4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson6/lesson6.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson6/lesson6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/lessons.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/network/network.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/network/network (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/network/network (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stage-1.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stage-1.iml" />
@@ -27,6 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson3/stage-3-lesson3.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson3/stage-3-lesson3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson4/stage-3-lesson4.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson4/stage-3-lesson4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5/stage-3-lesson5.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5/stage-3-lesson5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5-homework/stage-3-lesson5-homework.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5-homework/stage-3-lesson5-homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5-hw/stage-3-lesson5-hw.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5-hw/stage-3-lesson5-hw.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stg-1-lesson2/stg-1-lesson2.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stg-1-lesson2/stg-1-lesson2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stg-1-lesson4/stg-1-lesson4.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stg-1-lesson4/stg-1-lesson4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stg-1-lesson5/stg-1-lesson5.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stg-1-lesson5/stg-1-lesson5.iml" />

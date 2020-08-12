@@ -5,8 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/Geekbrains-java2-master/pom.xml" />
         <option value="$PROJECT_DIR$/Geekbrains-java2-master/chat/pom.xml" />
+        <option value="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson5-hw/pom.xml" />
+        <option value="$PROJECT_DIR$/Geekbrains-java2-master/mychat/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

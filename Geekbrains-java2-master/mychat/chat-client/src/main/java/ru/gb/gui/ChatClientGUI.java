@@ -8,16 +8,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
 
-public class ClientGUI extends JFrame implements ActionListener, Thread.UncaughtExceptionHandler, MessageSocketThreadListener {
+public class ChatClientGUI extends JFrame implements ActionListener, Thread.UncaughtExceptionHandler, MessageSocketThreadListener {
 
     private static final int WIDTH = 400;
     private static final int HEIGHT = 300;
@@ -35,7 +34,9 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
     private final JButton buttonDisconnect = new JButton("<html><b>Disconnect</b></html>");
     private final JTextField messageField = new JTextField();
     private final JButton buttonSend = new JButton("Send");
+    private final JButton buttonSettings = new JButton("Settings");
 
+    private ClientSettingsWindow clientSettingsWindow;
     private final JList<String> listUsers = new JList<>();
     private SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
     private final String WINDOW_TITLE = "Chat Client";
@@ -51,7 +52,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         });
     }
 
-    ClientGUI() {
+    ChatClientGUI() {
         Thread.setDefaultUncaughtExceptionHandler(this);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle(WINDOW_TITLE);
@@ -77,6 +78,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         panelBottom.add(buttonDisconnect, BorderLayout.WEST);
         panelBottom.add(messageField, BorderLayout.CENTER);
         panelBottom.add(buttonSend, BorderLayout.EAST);
+        panelBottom.add(buttonSettings, BorderLayout.AFTER_LAST_LINE);
 
         add(scrollPaneChatArea, BorderLayout.CENTER);
         add(scrollPaneUsers, BorderLayout.EAST);
@@ -90,6 +92,7 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         messageField.addActionListener(this);
         buttonLogin.addActionListener(this);
         buttonDisconnect.addActionListener(this);
+        buttonSettings.addActionListener(this);
 
         setVisible(true);
     }
@@ -111,6 +114,8 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
             }
         } else if (src == buttonDisconnect) {
             socketThread.close();
+        } else if (src == buttonSettings){
+            this.clientSettingsWindow = new ClientSettingsWindow(this);
         } else {
             throw new RuntimeException("Unsupported action: " + src);
         }
@@ -156,6 +161,35 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         }
     }
 
+    private void putFileHistoryToChatArea (String user, int linesCount){
+            ArrayList<String> lines = new ArrayList<String>();
+            StringBuilder builder = new StringBuilder();
+            File file = new File(user + "-history.txt");
+            if(file.exists()) {
+                int readLines = 0;
+                long fileLength = file.length();
+                try (RandomAccessFile raf = new RandomAccessFile(file, "r");) {
+                    for (long pointer = fileLength; pointer >= 0; pointer--) {
+                        raf.seek(pointer);
+                        char c = (char) raf.read();
+                        if (c == '\n') {
+                            lines.add(builder.reverse().toString());
+                            builder = new StringBuilder();
+                            readLines++;
+                            if (readLines == linesCount) {
+                                break;
+                            }
+                        }
+                        builder.append(c);
+                    }
+                    Collections.reverse(lines);
+                    chatArea.append(lines.toString());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+    }
+
     private void showError(String errorMsg) {
         JOptionPane.showMessageDialog(this, errorMsg, "Exception!", JOptionPane.ERROR_MESSAGE);
     }
@@ -195,6 +229,12 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
             case AUTH_ACCEPT:
                 this.nickname = values[2];
                 setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
+                putFileHistoryToChatArea(values[2], 100);
+                break;
+            case AUTH_UPDATE:
+                this.nickname = values[2];
+                setTitle(WINDOW_TITLE + " authorized with nickname: " + this.nickname);
+                putFileHistoryToChatArea(values[2], 100);
                 break;
             case AUTH_DENIED:
                 putMessageInChatArea("server", msg);
@@ -227,4 +267,16 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
 
         }
     }
+
+    protected void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+    protected String getNickname(){
+        return nickname;
+    }
+
+    public void changeNickname(String nickname){
+        socketThread.sendMessage(MessageLibrary.getAuthUpdateMessage(loginField.getText(), new String(passwordField.getPassword()), nickname));
+    }
+
 }

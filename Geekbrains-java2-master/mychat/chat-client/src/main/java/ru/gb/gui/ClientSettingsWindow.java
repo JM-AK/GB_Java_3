@@ -9,20 +9,20 @@ public class ClientSettingsWindow extends JFrame {
     private static final int WINDOW_WIDTH = 500;
     private static final int WINDOW_HEIGHT = 100;
 
-    private ClientGUI clientGUI;
+    private ChatClientGUI chatClientGUI;
 
     private JTextField nickNameField = new JTextField();
     private JButton buttonSaveSettings = new JButton("Завершить настройки");
 
-    public ClientSettingsWindow(ClientGUI clientGUI){
+    public ClientSettingsWindow(ChatClientGUI chatClientGUI){
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-        this.clientGUI = clientGUI;
+        this.chatClientGUI = chatClientGUI;
         setResizable(false);
-        setTitle("Настройки: " + clientGUI.getTitle());
-        setLocationRelativeTo(clientGUI);
+        setTitle("Настройки: " + chatClientGUI.getTitle());
+        setLocationRelativeTo(chatClientGUI);
         setLayout(new GridLayout(2, 1));
 
-        nickNameField.setText(clientGUI.getNickname());
+        nickNameField.setText(chatClientGUI.getNickname());
         add(nickNameField);
 
         buttonSaveSettings.addActionListener(new ActionListener() {
@@ -38,8 +38,8 @@ public class ClientSettingsWindow extends JFrame {
 
     private void setSettings (){
         String nickName = nickNameField.getText();
-        if (!nickName.equals(clientGUI.getNickname())) {
-            clientGUI.changeNickname(nickName);
+        if (!nickName.equals(chatClientGUI.getNickname())) {
+            chatClientGUI.changeNickname(nickName);
         }
 
         setVisible(false);

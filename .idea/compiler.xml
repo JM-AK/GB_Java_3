@@ -6,79 +6,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stg-1-lesson2" />
-        <module name="stg-1-lesson4" />
+        <module name="chat-client (1)" />
+        <module name="chat-server (1)" />
+        <module name="stg-1-lesson5" />
         <module name="chat-client" />
         <module name="lesson6" />
         <module name="lesson4" />
         <module name="lesson3" />
         <module name="lesson2" />
         <module name="lesson1" />
-        <module name="stg-1-lesson8" />
-        <module name="chat-client (1)" />
-        <module name="stage-3-lesson4" />
-        <module name="stage-3-lesson5" />
-        <module name="stage-3-lesson1" />
-        <module name="stg-1-lesson7" />
-        <module name="stg-1-lesson6" />
-        <module name="stg-1-lesson5" />
-        <module name="stage-3-lesson3" />
-        <module name="stage-3-lesson2" />
-      </profile>
-      <profile name="Annotation profile for chat-server" enabled="true">
-        <sourceOutputDir name="../../../chat/chat-server/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../chat/chat-server/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="chat-server" />
-      </profile>
-      <profile name="Annotation profile for network" enabled="true">
-        <sourceOutputDir name="../../../chat/network/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../chat/network/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="network" />
-      </profile>
-      <profile name="Annotation profile for lessons" enabled="true">
-        <sourceOutputDir name="../../../chat/chat-library/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../chat/chat-library/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="chat-library" />
-      </profile>
-      <profile name="Annotation profile for chat-server (1)" enabled="true">
-        <sourceOutputDir name="../../chat/chat-server/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../chat/chat-server/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="chat-server (1)" />
-      </profile>
-      <profile name="Annotation profile for network (1)" enabled="true">
-        <sourceOutputDir name="../../chat/network/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../chat/network/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="network (1)" />
-      </profile>
-      <profile name="Annotation profile for chat-library (1)" enabled="true">
-        <sourceOutputDir name="../../chat/chat-library/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../chat/chat-library/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
+        <module name="stg-1-lesson6" />
+        <module name="stg-1-lesson2" />
+        <module name="chat-server" />
+        <module name="stage-3-lesson5-hw" />
+        <module name="stage-3-lesson3" />
         <module name="chat-library (1)" />
+        <module name="chat-library" />
+        <module name="stage-3-lesson1" />
+        <module name="stg-1-lesson8" />
+        <module name="stg-1-lesson7" />
+        <module name="stage-3-lesson5" />
+        <module name="stage-3-lesson4" />
+        <module name="stg-1-lesson4" />
+        <module name="stage-3-lesson2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chat" target="1.8" />
       <module name="chat (1)" target="1.8" />
       <module name="chat-client" target="1.8" />
-      <module name="chat-client (1)" target="1.8" />
+      <module name="chat-client (1)" target="1.5" />
       <module name="chat-library" target="1.8" />
-      <module name="chat-library (1)" target="1.8" />
+      <module name="chat-library (1)" target="1.5" />
       <module name="chat-server" target="1.8" />
-      <module name="chat-server (1)" target="1.8" />
+      <module name="chat-server (1)" target="1.5" />
       <module name="lesson1" target="1.8" />
       <module name="lesson2" target="1.8" />
       <module name="lesson3" target="1.8" />
       <module name="lesson4" target="1.8" />
       <module name="lesson6" target="1.8" />
       <module name="lessons" target="1.8" />
+      <module name="mychat" target="1.8" />
       <module name="network" target="1.8" />
-      <module name="network (1)" target="1.8" />
+      <module name="network (1)" target="1.5" />
       <module name="stage-1" target="1.8" />
       <module name="stage-2" target="1.8" />
       <module name="stage-3" target="1.8" />
@@ -87,6 +59,8 @@
       <module name="stage-3-lesson3" target="1.8" />
       <module name="stage-3-lesson4" target="1.8" />
       <module name="stage-3-lesson5" target="1.8" />
+      <module name="stage-3-lesson5-homework" target="8" />
+      <module name="stage-3-lesson5-hw" target="1.8" />
       <module name="stg-1-lesson2" target="1.8" />
       <module name="stg-1-lesson4" target="1.8" />
       <module name="stg-1-lesson5" target="1.8" />

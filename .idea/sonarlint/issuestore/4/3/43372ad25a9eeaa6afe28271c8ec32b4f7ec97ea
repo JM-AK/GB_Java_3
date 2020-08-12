@@ -1,0 +1,12 @@
+
+[
+java:S2184"@Cast one of the operands of this addition operation to a "long".(™Ôı“üÿÿÿÿ
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(á×É„
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(™Ôı“üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òğ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ıÒşÊ
