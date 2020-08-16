@@ -1,0 +1,13 @@
+
+£
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áµ•Ìúÿÿÿÿ8 Ã‘¾¿.
+X	java:S125x"<This block of commented-out lines of code should be removed.(Ìõ‘È8 Ã‘¾¿.
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÛÅÈ«þÿÿÿÿ8 Ã‘¾¿.
+L
+java:S1068"/Remove this unused "poolClients" private field.(˜ÿäŒ8 Ã‘¾¿.
+U	java:S106}"9Replace this use of System.out or System.err by a logger.(Éü…í8 Ã‘¾¿.
+U
+java:S2629Ä"7Use the built-in formatting to construct this argument.(£žÕ·8µŠÓ¾¿.
+_
+java:S3457Ä"AFormat specifiers should be used instead of string concatenation.(£žÕ·8µŠÓ¾¿.
