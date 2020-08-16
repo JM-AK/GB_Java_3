@@ -1,0 +1,9 @@
+
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(Îœ¼åşÿÿÿÿ
+e
+java:S1128"HRemove this unused import 'java.util.concurrent.BrokenBarrierException'.(§ø€ÿ8íá¹¥¾.
+?
+java:S2140%")Use "java.util.Random.nextInt()" instead.(†û‡
+V
+java:S2184%"@Cast one of the operands of this addition operation to a "long".(†û‡
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(‰¾÷

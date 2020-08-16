@@ -1,18 +1,13 @@
-package ru.geekbrains;
+package ru.geekbrains.concurrent.homework;
 
-import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.locks.ReentrantLock;
 
-import static ru.geekbrains.MainClass.CARS_COUNT;
-
-public class Car implements Runnable {
-    static CyclicBarrier cbReady = new CyclicBarrier(CARS_COUNT);
-    static final CountDownLatch cdFinish = new CountDownLatch(CARS_COUNT);
-
-    private static int carsNum;
+public class Car implements Runnable{
+    private static int CAR_NUMBER;
     static {
-        carsNum = 0;
+        CAR_NUMBER = 0;
     }
     private Race race;
     private int speed;
@@ -23,29 +18,38 @@ public class Car implements Runnable {
     public int getSpeed() {
         return speed;
     }
-    public Car(Race race, int speed) {
+    private CyclicBarrier cb;
+    private CountDownLatch cdl;
+
+    public Car(Race race, int speed, CyclicBarrier cb, CountDownLatch cdl) {
         this.race = race;
         this.speed = speed;
-        carsNum++;
-        this.name = "Участник #" + carsNum;
+        CAR_NUMBER++;
+        this.name = "Участник #" + CAR_NUMBER;
+        this.cb = cb;
+        this.cdl = cdl;
     }
     @Override
     public void run() {
+
         try {
             System.out.println(this.name + " готовится");
             Thread.sleep(500 + (int)(Math.random() * 800));
             System.out.println(this.name + " готов");
-            cbReady.await();
-            cbReady.await();
+            cb.await();
+            cb.await();
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
         for (int i = 0; i < race.getStages().size(); i++) {
             race.getStages().get(i).go(this);
         }
-        cdFinish.countDown();
+
+        if (!race.isWinnerExists().getAndSet(true)) {
+            System.out.println(this.name + " - WIN");
+        }
+        cdl.countDown();
     }
+
+
 }

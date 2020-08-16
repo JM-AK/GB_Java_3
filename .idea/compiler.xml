@@ -6,30 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chat-client (1)" />
+        <module name="stg-1-lesson2" />
         <module name="chat-server (1)" />
-        <module name="stg-1-lesson5" />
+        <module name="stg-1-lesson4" />
+        <module name="stage-3-lesson-6" />
         <module name="chat-client" />
         <module name="lesson6" />
         <module name="lesson4" />
         <module name="lesson3" />
         <module name="lesson2" />
         <module name="lesson1" />
-        <module name="network" />
         <module name="network (1)" />
-        <module name="stg-1-lesson6" />
-        <module name="stg-1-lesson2" />
-        <module name="chat-server" />
-        <module name="stage-3-lesson5-hw" />
-        <module name="stage-3-lesson3" />
         <module name="chat-library (1)" />
-        <module name="chat-library" />
-        <module name="stage-3-lesson1" />
+        <module name="stage-3-lesson-6-hw" />
         <module name="stg-1-lesson8" />
-        <module name="stg-1-lesson7" />
+        <module name="chat-server" />
+        <module name="stage-3-lesson1" />
         <module name="stage-3-lesson5" />
+        <module name="chat-client (1)" />
         <module name="stage-3-lesson4" />
-        <module name="stg-1-lesson4" />
+        <module name="chat-library" />
+        <module name="stage-3-lesson3" />
+        <module name="network" />
+        <module name="stg-1-lesson7" />
+        <module name="stg-1-lesson6" />
+        <module name="stg-1-lesson5" />
+        <module name="stage-3-lesson5-hw" />
         <module name="stage-3-lesson2" />
       </profile>
     </annotationProcessing>
@@ -54,6 +56,8 @@
       <module name="stage-1" target="1.8" />
       <module name="stage-2" target="1.8" />
       <module name="stage-3" target="1.8" />
+      <module name="stage-3-lesson-6" target="1.8" />
+      <module name="stage-3-lesson-6-hw" target="1.8" />
       <module name="stage-3-lesson1" target="1.8" />
       <module name="stage-3-lesson2" target="1.8" />
       <module name="stage-3-lesson3" target="1.8" />

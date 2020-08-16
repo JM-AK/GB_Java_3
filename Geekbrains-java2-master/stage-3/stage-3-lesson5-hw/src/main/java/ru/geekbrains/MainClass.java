@@ -24,8 +24,10 @@ public class MainClass {
 
 
         try {
-            Car.cdStart.await();
+            cbReady.await();
         } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (BrokenBarrierException e) {
             e.printStackTrace();
         }
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка началась!!!");
