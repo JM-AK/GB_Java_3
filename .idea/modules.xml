@@ -3,13 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GB_Java_3.iml" filepath="$PROJECT_DIR$/.idea/GB_Java_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-client/chat-client.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-client/chat-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-client/chat-client (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-client/chat-client (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-library/chat-library.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-library/chat-library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-library/chat-library (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-library/chat-library (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-server/chat-server.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/chat-server/chat-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-server/chat-server (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/chat-server/chat-server (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson1/lesson1.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson1/lesson1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson2/lesson2.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson2/lesson2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson3/lesson3.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson3/lesson3.iml" />
@@ -17,8 +13,11 @@
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson6/lesson6.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/lesson6/lesson6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/lessons.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/lessons.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat-client/mychat-client.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat-client/mychat-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat-library/mychat-library.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat-library/mychat-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat-server/mychat-server.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/mychat-server/mychat-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/mynetwork/mynetwork.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/mynetwork/mynetwork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/network/network.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/chat/network/network.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/mychat/network/network (1).iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/mychat/network/network (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stage-1.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-1/stage-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-2/stage-2.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-2/stage-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3.iml" filepath="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3.iml" />

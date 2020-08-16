@@ -1,22 +1,20 @@
 
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8žºÓ¢¾.
-Y
-java:S1128"<Remove this unused import 'java.util.concurrent.locks.Lock'.(µÒÌÿ8Ý¤›¥¾.
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8žºÓ¢¾.
-c
-java:S2142%"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ñâŠ¤¾.
-X
-java:S1128	"6Remove this unused import 'ru.geekbrains.Car.cbReady'.(ÜË·øÿÿÿÿ8ýð¤¥¾.
-U	java:S106("9Replace this use of System.out or System.err by a logger.(Þ£–ç8ñâŠ¤¾.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ü€—þýÿÿÿÿ8›¦¥¾.
 c
 java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ï´¦¥¾.
+c
+java:S2142'"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ñâŠ¤¾.
 b
 java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø8Ý¤›¥¾.
-e
-java:S1128"HRemove this unused import 'java.util.concurrent.BrokenBarrierException'.(§ø€ÿ8‡ó²¥¾.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ü€—þýÿÿÿÿ8›¦¥¾.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8žºÓ¢¾.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8žºÓ¢¾.
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(Þ£–ç8ñâŠ¤¾.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(öÔƒÚ8ñâŠ¤¾.
+f
+java:S2147"DCombine this catch with the one at line 28, which has the same body.(†«”Ïüÿÿÿÿ8¹œÜ¸¿.
+Y
+java:S1128"<Remove this unused import 'java.util.concurrent.locks.Lock'.(µÒÌÿ8Ý¤›¥¾.
 K
 java:S2140")Use "java.util.Random.nextInt()" instead.(Ÿ§Àåùÿÿÿÿ8ñâŠ¤¾.

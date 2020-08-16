@@ -12,10 +12,10 @@
     <artifactId>mychat</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>chat-client</module>
-        <module>chat-server</module>
-        <module>network</module>
-        <module>chat-library</module>
+        <module>mychat-client</module>
+        <module>mychat-server</module>
+        <module>mynetwork</module>
+        <module>mychat-library</module>
     </modules>
 
     <dependencies>
@@ -23,6 +23,12 @@
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.32.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.3</version>
         </dependency>
 
     </dependencies>

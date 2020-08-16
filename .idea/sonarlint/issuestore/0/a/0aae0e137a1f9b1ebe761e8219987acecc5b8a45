@@ -1,7 +1,11 @@
 
-V	java:S110"<This class has 6 parents which is greater than 5 authorized.(ßû±×üÿÿÿÿ
-[	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(Ò©Ã£
+T	java:S106V"9Replace this use of System.out or System.err by a logger.(‚š‰18ÊÙ½¿.
+[	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò©Ã£
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(ßû±×üÿÿÿÿ
+^
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(£Õ·8°ç‘½¿.
 C
-java:S1604"(Make this anonymous inner class a lambda(Ô¶µÿşÿÿÿÿ
-M	java:S106Q"9Replace this use of System.out or System.err by a logger.(‚š‰1
-Q	java:S125A"<This block of commented-out lines of code should be removed.(¶÷³
+java:S1604"(Make this anonymous inner class a lambda(Ô¶µÿşÿÿÿÿ
+T
+java:S2629U"7Use the built-in formatting to construct this argument.(£Õ·8ÊŒ“½¿.
+Q	java:S125E"<This block of commented-out lines of code should be removed.(¶÷³

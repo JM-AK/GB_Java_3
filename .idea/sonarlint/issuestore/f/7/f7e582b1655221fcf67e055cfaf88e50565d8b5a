@@ -1,0 +1,20 @@
+
+E
+java:S3740Y"/Provide the parametrized type for this generic.(³İÑŠ
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(¼ÔÌÙøÿÿÿÿ
+d
+java:S1192+"IDefine a constant instead of duplicating this literal "fileName" 3 times.(¤©¡†ùÿÿÿÿ
+P
+java:S1854W":Remove this useless assignment to local variable "filter".(¨Ùê
+J
+java:S1144"4Remove this unused private "configureLogger" method.(¢÷Šİ
+M
+java:S1144@"7Remove this unused private "configureLoggerPro" method.(öºâå
+Q	java:S125"<This block of commented-out lines of code should be removed.(ì‚´®
+A
+java:S1481W"+Remove this unused "filter" local variable.(¨Ùê
+N	java:S106t"9Replace this use of System.out or System.err by a logger.(‡‹¿Æ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(‡‹¿Æ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(¼ÔÌÙøÿÿÿÿ
+]
+java:S1192#"GDefine a constant instead of duplicating this literal "stdout" 4 times.(®æØÏ
