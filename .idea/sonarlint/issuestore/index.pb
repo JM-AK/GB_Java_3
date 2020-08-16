@@ -465,3 +465,15 @@ V
 &Geekbrains-java2-master/mychat/pom.xml,2\f\2feefd87482317890fbf994b46b5bf4464d02e15
 …
 UGeekbrains-java2-master/mychat/chat-client/src/main/java/ru/gb/gui/ChatClientGUI.java,8\b\8b8f70ee7b5307b8e33a47d4ffc720e1aef0a7ce
+‰
+YGeekbrains-java2-master/stage-3/stage-3-lesson5-hw/src/main/java/ru/geekbrains/Stage.java,4\d\4d9ea02cd78603956bac94caa36d5628da0adf05
+ˆ
+XGeekbrains-java2-master/stage-3/stage-3-lesson5-hw/src/main/java/ru/geekbrains/Road.java,e\c\ecfe5c435fc7bc6c7883ef2b8ea48d54174e2e88
+ˆ
+XGeekbrains-java2-master/stage-3/stage-3-lesson5-hw/src/main/java/ru/geekbrains/Race.java,f\7\f7f4fe051a0e81bf9aa220dd0c20256404d89207
+
+]Geekbrains-java2-master/stage-3/stage-3-lesson5-hw/src/main/java/ru/geekbrains/MainClass.java,1\9\19869cde9b575659e9edb11ef2f0cd398095858d
+Š
+ZGeekbrains-java2-master/stage-3/stage-3-lesson5-hw/src/main/java/ru/geekbrains/Tunnel.java,5\9\5966dfdd5ca4204a30a427300ef71a1d5a553f21
+‡
+WGeekbrains-java2-master/stage-3/stage-3-lesson5-hw/src/main/java/ru/geekbrains/Car.java,c\3\c369125e89feb6226180a5511914890fc38c1074

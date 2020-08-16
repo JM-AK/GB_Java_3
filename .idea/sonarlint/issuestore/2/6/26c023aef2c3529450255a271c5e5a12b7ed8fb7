@@ -1,9 +1,9 @@
 
+N	java:S106"9Replace this use of System.out or System.err by a logger.(´ñì¨
+[
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(²ŠË
 a
 java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(àìþ¼ûÿÿÿÿ
 >
 java:S2140")Use "java.util.Random.nextInt()" instead.(¸«èC
-[
-java:S2184"FCast one of the operands of this multiplication operation to a "long".(²ŠË
 S	java:S106"9Replace this use of System.out or System.err by a logger.(¾šóþüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(´ñì¨

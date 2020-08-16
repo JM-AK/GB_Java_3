@@ -1,0 +1,45 @@
+<Configuration>
+    <Properties>
+        <Property name="basePath">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="stdout" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5level ${PID:- } --- [%t] %-40.40logger{39} : %n%m%throwable"/>
+        </Console>
+
+        <File name="geekbrains1-file" fileName="${basePath}/geekbrains1-logfile.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5level ${PID:- } --- [%t] %-40.40logger{39} : %m%n%throwable"/>
+        </File>
+        <File name="geekbrains2-file" fileName="${basePath}/geekbrains2-logfile.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5level ${PID:- } --- [%t] %-40.40logger{39} : %m%n%throwable"/>
+        </File>
+
+        <RollingFile name="geekbrains1-rollingFile" fileName="${basePath}/geekbrains1-rolling.log" filePattern="${basePath}/geekbrains1-rolling-%d{MM-dd-yy}.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5level ${PID:- } --- [%t] %-40.40logger{39} : %m%n%throwable"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1M"/>
+            </Policies>
+        </RollingFile>
+        <RollingFile name="geekbrains2-rollingFile" fileName="${basePath}/geekbrains2-rolling.log" filePattern="${basePath}/geekbrains2-rolling-%d{MM-dd-yy}_%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5level ${PID:- } --- [%t] %-40.40logger{39} : %m%n%throwable"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1M"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO" additivity="true">
+            <AppenderRef ref="stdout"/>
+        </Root>
+
+        <Logger name="ru.geekbrains" level="DEBUG" additivity="false">
+            <AppenderRef ref="geekbrains1-file"/>
+            <AppenderRef ref="geekbrains1-rollingFile"/>
+        </Logger>
+
+        <Logger name="ru.geekbrains2" level="DEBUG" additivity="false">
+            <AppenderRef ref="geekbrains2-file"/>
+            <AppenderRef ref="geekbrains2-rollingFile"/>
+        </Logger>
+    </Loggers>
+</Configuration>
