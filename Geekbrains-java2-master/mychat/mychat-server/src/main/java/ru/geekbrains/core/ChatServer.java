@@ -193,7 +193,7 @@ public class ChatServer implements ServerSocketThreadListener, MessageSocketThre
     }
 
     private void logMessage(String msg) {
-        logger.info(msg);
+        logger.info(this.getClass().getName() + msg);
         listener.onChatServerMessage(msg);
     }
 

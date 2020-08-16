@@ -12,8 +12,6 @@ import java.awt.event.ActionListener;
 
 public class ServerGUI extends JFrame implements ActionListener, Thread.UncaughtExceptionHandler, ChatServerListener {
 
-    private static final Logger logger = LogManager.getLogger(ServerGUI.class);
-
     private static final int POS_X = 700;
     private static final int POS_Y = 350;
     private static final int WIDTH = 200;
@@ -82,7 +80,6 @@ public class ServerGUI extends JFrame implements ActionListener, Thread.Uncaught
 
     @Override
     public void onChatServerMessage(String msg) {
-        logger.info(this.getClass().getName() + msg);
         System.out.println(msg);
     }
 }
