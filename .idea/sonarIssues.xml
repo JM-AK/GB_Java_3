@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/compiler.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/modules.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-6-hw/src/main/java/ru/gb/ArrayTestClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/AfterSuite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/BeforeSuite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/Football.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/ReflactionTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/TestC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/TestF.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/TestM.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Geekbrains-java2-master/stage-3/stage-3-lesson-7-hw/src/main/java/ru/geekbrains/TestedClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -8,30 +8,32 @@
         <outputRelativeToContentRoot value="true" />
         <module name="stg-1-lesson2" />
         <module name="mychat-client" />
-        <module name="stg-1-lesson6" />
-        <module name="stg-1-lesson5" />
+        <module name="stg-1-lesson4" />
         <module name="chat-client" />
+        <module name="stage-3-lesson-7" />
         <module name="stage-3-lesson-6" />
         <module name="lesson4" />
         <module name="lesson3" />
         <module name="lesson2" />
         <module name="lesson1" />
-        <module name="network" />
+        <module name="stage-3-lesson5" />
         <module name="mychat-server" />
         <module name="mynetwork" />
         <module name="stage-3-lesson-6-hw" />
-        <module name="stage-3-lesson3" />
+        <module name="stg-1-lesson8" />
         <module name="chat-server" />
+        <module name="stage-3-lesson4" />
         <module name="stage-3-lesson5-hw" />
+        <module name="stage-3-lesson-7-hw" />
         <module name="lesson6" />
         <module name="chat-library" />
         <module name="mychat-library" />
         <module name="stage-3-lesson1" />
-        <module name="stg-1-lesson8" />
+        <module name="network" />
         <module name="stg-1-lesson7" />
-        <module name="stage-3-lesson5" />
-        <module name="stage-3-lesson4" />
-        <module name="stg-1-lesson4" />
+        <module name="stg-1-lesson6" />
+        <module name="stg-1-lesson5" />
+        <module name="stage-3-lesson3" />
         <module name="stage-3-lesson2" />
       </profile>
     </annotationProcessing>
@@ -57,6 +59,8 @@
       <module name="stage-3" target="1.8" />
       <module name="stage-3-lesson-6" target="1.8" />
       <module name="stage-3-lesson-6-hw" target="1.8" />
+      <module name="stage-3-lesson-7" target="1.8" />
+      <module name="stage-3-lesson-7-hw" target="1.8" />
       <module name="stage-3-lesson1" target="1.8" />
       <module name="stage-3-lesson2" target="1.8" />
       <module name="stage-3-lesson3" target="1.8" />
