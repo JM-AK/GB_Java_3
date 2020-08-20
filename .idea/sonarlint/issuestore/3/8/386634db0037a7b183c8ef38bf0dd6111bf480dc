@@ -1,0 +1,13 @@
+
+]	java:S110"<This class has 6 parents which is greater than 5 authorized.(ßû±×üÿÿÿÿ8Ğ¹¾¿.
+J
+java:S1604"(Make this anonymous inner class a lambda(Ô¶µÿşÿÿÿÿ8Ğ¹¾¿.
+b	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ò©Ã£8Ğ¹¾¿.
+X	java:S125C"<This block of commented-out lines of code should be removed.(¶÷³8Ğ¹¾¿.
+T	java:S106S"9Replace this use of System.out or System.err by a logger.(‚š‰18Ğ¹¾¿.
+I
+java:S1948",Make "chatServer" transient or serializable.(âéƒş8Ğ¹¾¿.
+^
+java:S1128"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ8Ó÷Ğ¾¿.
+]
+java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé8Ó÷Ğ¾¿.

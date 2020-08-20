@@ -1,0 +1,8 @@
+
+V
+java:S2184"@Cast one of the operands of this addition operation to a "long".(†ûž‡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÈáØ
+?
+java:S2140")Use "java.util.Random.nextInt()" instead.(†ûž‡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Í–»˜
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ü€—þýÿÿÿÿ

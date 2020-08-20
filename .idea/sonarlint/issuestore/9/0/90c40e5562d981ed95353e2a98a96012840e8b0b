@@ -1,25 +1,0 @@
-
-†
-java:S1319W"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ˆÊÔ§
-]
-java:S2095Y"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ë×üÉ
-]
-java:S2095M"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ë×üÉ
-P
-java:S1118":Add a private constructor to hide the implicit public one.(£ÀÇ®
-?
-java:S2115$")Add password protection to this database.(Êá«
-E
-java:S2695F"/This "PreparedStatement" only has 2 parameters.(â›å„
-N	java:S106O"9Replace this use of System.out or System.err by a logger.(ÆÀûı
-V	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(½ßéşÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ñ±™Œ
-F
-java:S11440"0Remove this unused private "createTable" method.(Ÿßªå
-F
-java:S1144L"0Remove this unused private "readRecords" method.(‚Ó·¾
-D
-java:S1144k".Remove this unused private "dropTable" method.(Ÿêµ•
-K
-java:S1144o"5Remove this unused private "deleteAllRecords" method.(ÃŠûˆ

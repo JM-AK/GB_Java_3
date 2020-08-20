@@ -1,0 +1,8 @@
+
+P
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ãË¤¶úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ó¦•Íþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ãÃ»Ä

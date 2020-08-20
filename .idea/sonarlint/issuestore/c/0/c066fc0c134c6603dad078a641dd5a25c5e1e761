@@ -1,0 +1,12 @@
+
+[
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø
+?
+java:S2140%")Use "java.util.Random.nextInt()" instead.(†û‡
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(£­´ùÿÿÿÿ
+V
+java:S2184%"@Cast one of the operands of this addition operation to a "long".(†û‡
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(Îœ¼åşÿÿÿÿ
+k
+java:S3008"URename this field "CAR_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿–ôè
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(‰¾÷

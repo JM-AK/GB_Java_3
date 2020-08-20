@@ -7,43 +7,39 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stg-1-lesson2" />
-        <module name="chat-server (1)" />
-        <module name="stg-1-lesson4" />
-        <module name="stage-3-lesson-6" />
+        <module name="mychat-client" />
+        <module name="stg-1-lesson6" />
+        <module name="stg-1-lesson5" />
         <module name="chat-client" />
-        <module name="lesson6" />
+        <module name="stage-3-lesson-6" />
         <module name="lesson4" />
         <module name="lesson3" />
         <module name="lesson2" />
         <module name="lesson1" />
-        <module name="network (1)" />
-        <module name="chat-library (1)" />
-        <module name="stage-3-lesson-6-hw" />
-        <module name="stg-1-lesson8" />
-        <module name="chat-server" />
-        <module name="stage-3-lesson1" />
-        <module name="stage-3-lesson5" />
-        <module name="chat-client (1)" />
-        <module name="stage-3-lesson4" />
-        <module name="chat-library" />
-        <module name="stage-3-lesson3" />
         <module name="network" />
-        <module name="stg-1-lesson7" />
-        <module name="stg-1-lesson6" />
-        <module name="stg-1-lesson5" />
+        <module name="mychat-server" />
+        <module name="mynetwork" />
+        <module name="stage-3-lesson-6-hw" />
+        <module name="stage-3-lesson3" />
+        <module name="chat-server" />
         <module name="stage-3-lesson5-hw" />
+        <module name="lesson6" />
+        <module name="chat-library" />
+        <module name="mychat-library" />
+        <module name="stage-3-lesson1" />
+        <module name="stg-1-lesson8" />
+        <module name="stg-1-lesson7" />
+        <module name="stage-3-lesson5" />
+        <module name="stage-3-lesson4" />
+        <module name="stg-1-lesson4" />
         <module name="stage-3-lesson2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chat" target="1.8" />
       <module name="chat (1)" target="1.8" />
       <module name="chat-client" target="1.8" />
-      <module name="chat-client (1)" target="1.5" />
       <module name="chat-library" target="1.8" />
-      <module name="chat-library (1)" target="1.5" />
       <module name="chat-server" target="1.8" />
-      <module name="chat-server (1)" target="1.5" />
       <module name="lesson1" target="1.8" />
       <module name="lesson2" target="1.8" />
       <module name="lesson3" target="1.8" />
@@ -51,8 +47,11 @@
       <module name="lesson6" target="1.8" />
       <module name="lessons" target="1.8" />
       <module name="mychat" target="1.8" />
+      <module name="mychat-client" target="1.8" />
+      <module name="mychat-library" target="1.8" />
+      <module name="mychat-server" target="1.8" />
+      <module name="mynetwork" target="1.8" />
       <module name="network" target="1.8" />
-      <module name="network (1)" target="1.5" />
       <module name="stage-1" target="1.8" />
       <module name="stage-2" target="1.8" />
       <module name="stage-3" target="1.8" />

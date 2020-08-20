@@ -49,3 +49,5 @@
 09.08.2020 20:10:33 <Server>: alex-st connected
 09.08.2020 20:12:37 <Server>: alex-st-2 connected
 09.08.2020 20:12:46 <Server>: alex-st reconnected
+16.08.2020 17:59:07 <Server>: alex-st connected
+16.08.2020 18:02:28 <Server>: alex-st connected

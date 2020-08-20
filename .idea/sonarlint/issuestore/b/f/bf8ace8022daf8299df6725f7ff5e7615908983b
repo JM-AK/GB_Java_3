@@ -1,0 +1,20 @@
+
+W
+java:S3457 "AFormat specifiers should be used instead of string concatenation.(öñ™Ì
+W
+java:S3457!"AFormat specifiers should be used instead of string concatenation.(³Ÿß
+:
+java:S2629"$Invoke method(s) only conditionally.(ØŸËä
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(êËÀå
+W
+java:S3457#"AFormat specifiers should be used instead of string concatenation.(ı‹øò
+:
+java:S2629"$Invoke method(s) only conditionally.(Ø¼¬Õ
+\
+java:S3457%"AFormat specifiers should be used instead of string concatenation.(×Åªùùÿÿÿÿ
+W
+java:S3457$"AFormat specifiers should be used instead of string concatenation.(•ÛÀ®
+W
+java:S3457""AFormat specifiers should be used instead of string concatenation.(‘úíı
+P
+java:S1128"5Remove this unused import 'ru.geekbrains.Test1Class'.(˜œ‹›øÿÿÿÿ
