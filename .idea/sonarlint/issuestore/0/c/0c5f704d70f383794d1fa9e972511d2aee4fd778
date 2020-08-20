@@ -1,0 +1,59 @@
+
+A
+java:S1481A"+Remove this unused "clazz1" local variable.(Úû˜Ş
+V	java:S125 "<This block of commented-out lines of code should be removed.(íÉûˆşÿÿÿÿ
+M
+java:S1144"7Remove this unused private "classLoaderExample" method.(Ó¾ˆÆ
+F
+java:S1481C"+Remove this unused "clazz2" local variable.(Ã²€ıÿÿÿÿ
+G
+java:S30115",This accessibility bypass should be removed.(÷¸œ‡ûÿÿÿÿ
+O
+java:S1144="4Remove this unused private "getClassExample" method.(èÖîŠşÿÿÿÿ
+D
+java:S3740"/Provide the parametrized type for this generic.(¤¹ğ^
+N	java:S106"9Replace this use of System.out or System.err by a logger.(„—”Œ
+L
+java:S1144"6Remove this unused private "reflectionExample" method.(åßë§
+U
+java:S1854C":Remove this useless assignment to local variable "clazz2".(Ã²€ıÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(‰Ÿºúÿÿÿÿ
+U
+java:S1854*":Remove this useless assignment to local variable "method".(ïêÜÂşÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(§ƒ™ç
+E
+java:S3740>"/Provide the parametrized type for this generic.(§ƒ™ç
+F
+java:S1481*"+Remove this unused "method" local variable.(ïêÜÂşÿÿÿÿ
+O
+java:S1854>"9Remove this useless assignment to local variable "clazz".(§ƒ™ç
+E
+java:S3740"/Provide the parametrized type for this generic.(§ƒ™ç
+E
+java:S3740A"/Provide the parametrized type for this generic.(Úû˜Ş
+=
+java:S1481"(Remove this unused "con" local variable.(¤¹ğ^
+E
+java:S3740"/Provide the parametrized type for this generic.(Òââî
+C
+java:S1874"-Remove this use of "toURL"; it is deprecated.(Ò ö
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(äîÓÕşÿÿÿÿ
+P	java:S125$"<This block of commented-out lines of code should be removed.(ò¯Ñ 
+N
+java:S1874"3Remove this use of "newInstance"; it is deprecated.(êø‘şÿÿÿÿ
+@
+java:S1481>"*Remove this unused "clazz" local variable.(§ƒ™ç
+B
+java:S30114",This accessibility update should be removed.(˜ÂÓ˜
+b
+java:S2095"LUse try-with-resources or close this "URLClassLoader" in a "finally" clause.(Ò ö
+Q	java:S125'"<This block of commented-out lines of code should be removed.( º›ı
+J
+java:S3740""/Provide the parametrized type for this generic.(©«˜şÿÿÿÿ
+A
+java:S1481&"+Remove this unused "method" local variable.( †õ›
+J
+java:S3740C"/Provide the parametrized type for this generic.(Ã²€ıÿÿÿÿ
+P
+java:S1854A":Remove this useless assignment to local variable "clazz1".(Úû˜Ş
